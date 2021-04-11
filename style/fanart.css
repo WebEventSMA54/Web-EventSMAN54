@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+}
+
+body
+{
+  background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.zoom
+{
+   width: 720x;
+   height: 720px;
+   position: relative;
+   overflow: hidden;
+   background-size: cover;
+   
+}
+
+.zoom:before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 200px;
+    z-index: 1000;
+    background: linear-gradient(transparent, #fff)
+}
+
+.zoom #text
+{
+   position:absolute;
+   padding-top: 300px;
+   right: 0;
+   width: 100%;
+   transform: translateY(50%);
+}
+
+.content
+{
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+.content h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+.content p
+{
+   font-size: 1.2em;
+}
+
+.iframe-container1{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container1 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.iframe-container2{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container2 iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.next{
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.next{
+    border:1px solid #03bfbc;
+}
+
+.next{
+    color: #231e39;
+    background-color: #03bfbc;
+}
+
+.next:hover{
+    background-color: transparent;
+    color: #03bfbc;
+}
+
+footer{
+  background-color: palevioletred;
+}
