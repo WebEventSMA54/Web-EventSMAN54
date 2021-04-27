@@ -29,6 +29,11 @@
   background-color: palevioletred;
 }
 
-footer{
-  background-color: palevioletred;
+a{
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
