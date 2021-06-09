@@ -43,7 +43,7 @@ body
 
 .content
 {
-    padding: 50px;
+    padding: 25px;
     box-sizing: border-box;
     font-family: consolas;
   
@@ -68,55 +68,38 @@ body
   #layer4{
     width: 100%;
   }
+  
+  iframe{
+    width: 100%;
+    height: 315px;
+    margin-bottom: 5rem;
+  }
 }
 
+@media only screen and (max-width: 900px) {
+  
+  iframe{
+    width: 100%;
+    height: 195px;
+    margin-bottom: 5rem;
+  }
+}
 
-.iframe-container1{
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%; 
-  height: 0;
-}
-.iframe-container1 iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.iframe-container2{
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%; 
-  height: 0;
-}
-.iframe-container2 iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.iframe-container3{
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%; 
-  height: 0;
-}
-.iframe-container3 iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.lomba{
+  font-family: consolas;
 }
 
 footer{
-  background-color: palevioletred;
+  background-color: #c62368;
 }
 .item{
   transition: .5s ease-in-out;
 }
 .item:hover{
   filter: brightness(80%);
-}
+}
+
+.up{
+  padding-left: 10px;
+  padding-bottom: 20px;
+}

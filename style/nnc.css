@@ -7,7 +7,7 @@
 
 body
 {
-  background-color: #F0A4BC;
+  background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -20,19 +20,17 @@ body
    
 }
 
-#rodoku{
+#nnc{
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 50%;
-  width: 100%;
   transform: translate(-50%, -50%);
 }
-
 
 .zoom #text
 {
    position:absolute;
-   padding-top: 90%;
+   padding-top: 40%;
    right: 0;
    width: 100%;
    transform: translateY(50%);
@@ -94,7 +92,7 @@ footer{
 }
 .item:hover{
   filter: brightness(80%);
-}
+}
 
 .up{
   padding-left: 10px;
